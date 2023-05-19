@@ -1,0 +1,2798 @@
+
+
+================================fullstack===============================feb 20
+
+
+SERVER:
+:
+   IT IS A SYSTEM,AS A CLIENT WE ARE SENDING THE REQUEST TI THE SERVER, IT WILL PERFORM SOME ACTION
+    THEN IT WILL GENERATE SOME RESPONSE===>
+
+  APPLICATION SERVER
+  FILE SERVER 
+  DATABSE SERVER 
+  ---
+  
+  
+  WEB SERVER:
+  -----------
+  IT IS A SYSTEM,AS A CLIENT WE ARE SENDING THE REQUEST TI THE SERVER, IT WILL PERFORM SOME ACTION
+    THEN IT WILL GENERATE SOME RESPONSE===>
+	
+	
+	SERVER: DYNAMIC RESPONSE ==> JSP,SERVLET TECHNOLOGY
+	
+	WEB SERVER: STATIC RESPONCE ====>STORED IN WEB SERVER (HTML,CSS PAGES)
+	
+	
+	
+	
+	WEB BROWSER(BROWSER):
+	---------------------
+	
+	
+	
+	WEBSITE?
+	------------>
+	WEBASITE IS A COLLECTION OF WEB PAGES 
+	
+	WEB PAGE?
+	
+	  TYPES OF WEB PAGE:
+	  ------------------
+	   TWO TYPES WEB PAGES 
+	   1.STATIC WEB PAGES :
+	   
+	   
+	   2.DYNAMIC WEB PAGES ::
+	  
+	  
+	
+	html:
+	------------
+	Hyper text markup language
+	
+	
+	programming language
+	logical langige
+	procudure oriented lang 
+	objec oriented langu 
+	scripting lang 
+	
+	
+	
+	Hyper text: a word or a charecter or a senetence (the rtext within the text)
+	
+	markup language: scripting lang (tag based format)
+	
+	
+	
+	tag:
+	----
+
+   <openingtag> content   </closingtag>
+   
+      -----------------------------
+	            element
+	
+	
+	we have two types tags;
+	------------------------
+	1.container tags :  the tags which are having opening and closing tags
+	2.empty tags :    teh tags    eg:<tagname>
+	
+	
+
+	predefined tags: alredy defined
+	
+	
+	html code:   notepad,notepad++, intelij,   ide: vscode   :editors
+	------>
+	
+	
+	
+	
+	extension:  .java, .txt, .py, .html or .htm .css .js
+	
+	
+	Test.html
+	
+	browsers:websites(world wide web)===>url(uniform resouce locator)==>
+	
+	
+	html structure:
+	-----------------
+	
+	
+	<!DOCTYPE html>  :-> it will inform to the browser i am the html dcument and which type of version
+	
+	<html>   ============>parent tag 
+	
+	<head></head>               ==>child tag1
+	<body></body>               ====>child tag2
+	
+	</html>
+	
+	
+	
+	
+=====================21	
+	
+	html structure::
+	---------------
+	
+	
+	
+	<html>
+	
+	
+	<head>    :
+	
+	  <title>login page</title>  ===>
+	  <style></style> ======================>intrenal style 
+	  <link />======================>
+	  <meta keywords="html,tutorial,fontend technoloigies", author infor, lamgugae, evry 30s 20s  > 
+	  <script>
+	        
+	
+	</head>
+	
+	<body>
+	
+	
+	      welcome to html
+	
+	</body>
+	
+	
+	
+	</html>
+	
+	
+	
+	
+	=========================DOM TREE===========================
+	
+	DOCUMENT OBJECT MODEL:  dom tree structure
+	
+	============================22
+	
+	
+	
+	Attributes:
+	-----------
+	
+	<tagname> </tagname>
+	
+	attributes are we can use within the opeong tag only
+	
+	<tagname attributename="propertyname:proprtyvlaue"> welcome</tagname>
+	
+	<tagname attributename="vlaue"> welcome</tagname>
+	
+	
+	
+	
+	links:
+	------------------------------------------------->
+	
+	hyper link:
+	
+	anchor tags:
+	
+	<a>sathya praksh soma</a>
+	
+	=================================================Tables==================================
+	
+	colspan: it will comnine two columns as a single column
+	
+	rowspan:it will combine two rows as sinle roe
+	
+	
+	padding:
+	---------
+	10px : four sides equal
+	
+	10px 20px : top,bottom      left,right
+	
+	10px 20px 30px:  top     right,left      bottom 
+	
+	10px 20px 30px 40px:  top  right  bottom left 
+	
+	
+	margin:
+	---------
+	10px : four sides equal
+	
+	10px 20px : top,bottom      left,right
+	
+	10px 20px 30px:  top     right,left      bottom 
+	
+	10px 20px 30px 40px:  top  right  bottom left 
+	
+	border:
+	------
+	border-width:2px;
+	border-style: solid;
+	border-color:red;
+	
+	or 
+	
+	border: 2p solid red;
+	
+	border-radius:2px;
+	
+	
+==============================HTML FORMS==================================
+
+<form>
+
+USERNAME:<input type="text" name="uname"> : sathya 
+PASSWORD:<input type="password" name="pswrd">  :.........
+</form>
+
+=======================================================css===============================================
+
+
+
+
+casecading style sheets:
+-------------------------
+
+
+in this we have 3 types of style sheets 
+
+
+1.inline style sheet 
+2.internal stylesheet
+3.external style sheet
+
+
+>by using inline css it will reduce the performanece
+>by using inline css it will increase the time to create simple web page 
+>
+
+
+<p>welcome to css</p>
+
+
+<style>
+
+ //internal style syntax
+
+</style>
+
+
+
+
+syntax:
+------
+
+
+selectorName
+{
+
+propertyName:propertyValue;
+propertyName:propertyValue;
+propertyName:propertyValue;
+propertyName:propertyValue;
+propertyName:propertyValue;
+propertyName:propertyValue;
+}
+
+
+
+type of selectors: 5
+
+
+1.single element selector 
+2.group selector 
+3.class selector
+4.id selector 
+5.universal selector 
+
+
+
+1.single element selector 
+
+
+h2{
+
+color:green;
+background-color:yellow;
+}
+
+
+group selector:
+---------------------
+
+
+p,h2,h3{
+
+color: yellow;
+}
+
+
+
+
+external styling
+  p{
+  
+  color:red;}
+
+
+
+<style>
+
+p{
+color:green;
+}
+</style?
+
+
+
+<p style="color:yellow">hello</p>
+
+
+
+====================================tables===========================
+
+
+
+
+===================================positions:-----------------------------------------
+
+
+static:
+
+
+relative
+absolute
+fixed
+
+
+sticky(relative+fixed)
+
+==================================Combinators==================================
+
+div >h1{
+
+
+}
+
+1.descendent selectors (space)
+2.child selectors(>)
+3.adjacent siblig selector (+)
+4.general sibling selector (~)
+
+	
+================================flex=============================
+
+==============bootstrap:
+==========================
+
+front end frame work:  web devlopmnt faster easy  components:
+
+
+forms
+
+buttons
+
+texts
+
+responsive web layouts
+
+twittr
+
+
+create responsive websites 
+multi column layouts 
+form layouts 
+dynamic tabs carosal images scrolling alert boxes 
+
+advantges:
+--------
+
+
+
+
+saves the lot of the time  
+
+responsive features
+
+onsitent design
+
+easy to use
+
+compitable with servers:
+
+
+open source
+
+
+continers  : specifi with 
+container fluid:100%
+
+
+
+
+=========================================javascript========================
+
+js -->basically we can execute inside the browser 
+
+js engine
+
+chrome,edge--->v8 engine 
+
+firfox-->spidermonkey 
+
+i e--chakra
+
+
+node js(js env)--->to execute in the server
+
+js--client side programming lang 
+
+
+html css js 
+
+server side 
+
+.net php java python nodejs
+
+1995 briendien eich at netscape in 10days
+
+
+
+
+
+
+
+javascript(1995) <--------------------------------------->java(1995)
+
+mocha
+
+
+
+<script></script> ---> we can write our js code inside it
+
+
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+
+<script>
+
+</script>
+</body>
+</html>
+
+
+3 ways we can print js code 
+
+1.by using document object
+2.console
+3.alert
+
+	====================variables and datatyes================================
+	
+	
+	varibale is container or location where we are going to store our values
+	
+	var -->keyword in javascript 
+	
+	var myName="sathya";
+	
+	var myPhoneNUM=77266544444;
+	
+SYNTAX: 	KEYWORD VARIABLENAME=DATA/VALUE;
+
+
+var name;  //declaration
+
+name="sathya";  //assigning
+
+
+var name="sathya";  //initilization=declarion+assigning
+
+
+va name="sathya", 
+var num=78,
+ var isAgeValid=true;
+ 
+ 
+ 
+ Datatypes:
+ -----------
+ which type of data we are storing onto varibale name 
+ 
+ 
+ 1.primitive dt
+ 2.non primitive 
+ 
+ 
+ String
+ number
+ boolean
+ bigint
+ null
+ undefined
+ object
+ symbol
+ 
+ 
+Non-primitive datatypes
+::::::::::::::::::::: 
+ 
+ an object 
+ array
+ 
+ 
+ ==============================varaibles and functions=================================
+ 
+ 
+ function is the location where we are writing our logic  to perform some action.
+ 
+ 
+ syntax:
+ ----------
+ 
+ 
+ function functionName()
+ {
+ 
+ //logic
+ 
+ }
+ 
+ 
+ function sleep()   //declaring the function 
+ {
+ 
+   alert("yes!! we are sleeping");
+ }
+ 
+ 
+ sleep();   //calling the function 
+ 
+ 
+ 
+ ==========================Flow Controls or control statements===================================
+ 
+ 
+ 
+ consoloe.log("sathya");
+  consoloe.log("sathya");
+   consoloe.log("sathya");
+    consoloe.log("sathya");
+	 consoloe.log("sathya");
+	  consoloe.log("sathya");
+ 
+ 
+ 
+ stattement-1 -->4tyms
+  stattement-2
+   stattement-3 -->6tyms
+   stattement-4--->8tyms
+    stattement-5-->10tyms
+	 stattement-6
+ 
+ 
+ 
+ it will control the flow of the prgram where its executed when it will executed at ehich 
+ line of code
+ is executed by using the concept of flow controls.
+ 
+
+1.desicion making statements or conditional
+2.looping statements or iterative
+3.jumping statements or continue statements
+
+	
+	
+1.desicion making statements or conditional
+
+   if
+   
+   ifelse
+   elseif 
+   switch
+	
+2.looping statements or iterative
+   while 
+dowhile
+for looping
+
+for of 
+
+for in loop   
+	
+	
+	syntax:
+	-------
+	
+	if(condition or argument)
+	{
+	   //statement is executed
+	}
+	elseif{
+	
+	 //statement is executed
+	}
+	
+	
+	//whenever we know in advance
+	//if i dont know number of iterations in advance while
+	//at least print statement once at a time without checking consition: do while 
+	
+	for(initilization;conditionalcheck;increment/decrement)
+	{
+	
+	  //logic 
+	}
+	
+	for(var i=0;i<=10;i++){
+	  document.write(i);
+	}
+
+=============================events,evnt handler,==================================
+
+
+
+events: click , keybord even browser events 
+
+event handler : onclick , onkeybord even browser events 
+
+
+
+<button type="button"  onclick="alert('you just clicked me!!')">click me</button>
+
+<button type="button" id="myd">click</button>
+
+<a href="#" onclick="alert('you clicked link here!!!')">click on me</a>
+
+
+function sayHello()
+{
+
+  alert('you clicked the button by using using function');
+}
+
+document.getElementById("myd").onclick=sayHello;
+
+
+
+function myfun(){
+   document.getElementById("demo").innerHTML="hello world !! u clicke paragaph";
+}
+
+
+
+
+<p ondblclick="myfun()">double click this paragraph one function is triggered</p>
+
+<p id="demo"></p>
+
+
+function myfun(){
+  
+  var myname=document.getElementById("myid");
+  
+  myname.value= myname.value.toUpperCase();  
+}
+
+Enter your name: <input type="text" id="myid" onblur="myfun()">
+<p>when you leave the input field a function is treiggerd which transform the input text to upper case</p>
+
+
+<p>Select a new car from the list</p>
+
+<select id="myselect" onchange="myfun()">
+
+   <option value="Audi">Audi
+<option value="Bmw">BMW
+<option value="SHIFT">SHIFT
+<option value="INNOVA">INNOVA
+
+</select>
+
+<p> when you slect a new car a fucntion is trigred which outputs the value of selected car</p>
+
+<p id="demo"></p>
+
+
+function myfun(){
+
+  
+  var x=document.getElementById("myselect").value;
+  
+  document.getElementById("demo").innerHTML="you selected :"+x;
+}
+
+
+
+===============================event listner,Strings=============================================
+
+
+
+==============Timers,Regular Expressions============================
+
+
+
+
+regular expressions:
+------------------
+
+regex or RegExp : perl lang
+
+
+matcher 
+
+pattern 
+
+
+
+exec()  test()-->as input as string   search replace(regex as a input) 
+
+
+two ways:
+
+1.litteral way    :    /sathya/
+
+2.by using constructor way :  new RegExp("sathya")
+
+
+
+===============================Objects=====================================
+
+javascript is object based 
+
+key:value pair
+
+
+var person={
+
+name:"sathya",
+age:28,
+salary:1000
+  
+}
+
+document.write();
+==============================*******ES6(2015)featuress*******===================
+
+es ecmascript
+
+var-->keyword
+
+advanced javascript
+
+let(block level scope),const(the value once we assigned we cant change the value) 
+
+
+
+for(var i=0;i<5;i++){
+   console.log(i);
+}
+
+console.log(i);
+
+
+arrow functionsa are used to concise the code 
+
+   =>(fat arrow fuction)
+
+
+//normal function 
+function Hello(){
+ alert();
+}
+
+//function expression
+var sum=function(a,b){
+     return a+b;
+}
+
+document.write(2,3);	
+	
+
+	//arrow function 
+	
+	
+var sum=(a,b) => a+b;  
+	
+	document.write(sum(2,3));//to print the values
+	
+	
+======================exception handling=================================
+
+
+
+
+please enter valid username: developer(userunderstanble messga)
+
+
+ora123ghd:===========>error mssg==.>system defined error messages
+
+error--> Error
+
+
+exception handling is a mechanism of converting system defined error messages 
+to user friendly error messsages.
+
+try catch finally thorw ===>keywords  
+
+
+================json=======================
+
+
+
+javascript object notation: data interchanging server to server 
+
+
+xml html text --->json light weight
+
+
+json to javascript object 
+
+
+parse();  it will conver json to javascript object
+
+
+
+syntax:
+
+
+
+`{
+
+"key":"value"
+
+}`
+
+
+
+
+
+
+
+
+========================================java=========================================
+
+if i want communicate with persong: lang: general langugaes
+
+if i want to communicate with machine:programming  lang 
+
+
+softwares/applications
+
+ATM APPLICATIONS
+BILLING APPLICATION
+CALCULATOR APPLICATION 
+
+
+1.STANDALONE APPLICATION:
+
+THE APPLICATIONSS WHICH WE CAN RUN ON OUR MACHINE
+     EG: VLC MEDI,ANTIVIRUS
+
+2. DISTRIBUTED APPLICATION:
+     WHICH WE CAN RUN ON SERVER OR WITH NETWORK
+
+      FACEBOOK INSTAGRAM WATSUP GMAIL
+	  
+	     EVERY WHERE WE CAN SHARE THE DATA 
+
+
+
+POP (PROCIDURE ORRIENTED PROGR)                      OOP (OBJECT ORINETD PROGRMMIN)
+
+A,B,C,BCPL,COBOLT,FASCAL                            LISP, JAVA,PYTHON.NET,C#
+	
+	
+	100%    75% OOP   25 POP 
+	
+
+PERFORMANCE AND SECURITY
+
+OOPS(SYSTEM)                                                    OOPL (LANG)
+
+FEATURES OR METHODOLGIES                                      
+OMG(OBJECT MANAGEMENT GROUP)          
+CANADIEAN ORG
+
+
+
+
+1.INHERITANCE
+2.POLYMORPHISM-------------PERFORMANCE
+3.ABSTARCTION
+4.ENCAPSULATION---------->SECURITY
+
+
+1.PLATFORM INDIPENDENT
+2.GARBAGE COLLECTION
+
+
+
+
+JAVA:
+------
+JAVA IS AN OBJECT ORIENTED PROGRAMMING LANG FOR THE PUPOSE OF DEVELOPING
+BOTH STANDALONE AND DISTRIBUTED APPLICATIONS . 
+
+
+WHO FATHER: JAMES GOSLING  1995(SUN MICRO SYSTEM)--->OAK-->JAVA
+
+
+beta-1995
+1.0
+2.0
+3.0
+
+5
+6
+7
+8------------>LTS------------>
+
+11------------>LTS
+
+17------------>LTS
+19
+
+
+LTS:    LONG TERM SUPPORT
+
+
+
+ORACLE CORP----->WWW.ORACLE.COM
+
+
+jse:java standard edition:standalone(corejava)
+
+jee:java entriprise edition: distributed(advanced)
+
+
+jme:java micro edition(mobile):mobile applications
+
+
+
+prerequisite to write java program:
+=======================================
+
+
+c program--->c software-->turboc
+
+
+cpp progrma---cppp soft---turbocpp
+
+
+java program---jav software--->jdk(java development kit)8  jdk 8 dou
+
+
+
+1.download java software 
+2.install it 
+3.write jav program 
+4.editors(note ,n++,eclipse,)
+5.save the file
+6.compile it
+7.execute it 
+
+
+jdk-->jre+jvm
+java runtime environment:jre(run time envi)
+java virtual machine:execute the code
+
+53 keywords:small caps
+
+goto,const-->
+
+51-->corjava
+
+
+structure of java program:
+---------------------------
+
+class classname
+{
+
+//main method
+{
+   //statements
+
+}
+
+}
+
+
+---------------------------------------------->
+--------------------------------------------->
+
+
+
+
+class Test
+{
+public static void main(String args[])
+{
+  System.out.println("hello world");
+
+}
+
+}
+
+
+
+based dffrnt tech:
+ dffrnt extens 
+ 
+ html--->.html htm
+ js--->.js
+ css-->.css
+ java-->.java
+ 
+ 
+ 
+ 
+             compilation(compiler)
+ .java----------------------------------->.class
+ user under tsable                           machine understanding
+ 
+ 
+ 
+ binary:0s 1s
+ 
+ voltage:0v  o 
+ 
+ 
+ 5v--1s
+ 
+ 
+ 
+ compile:  javac filename.java 
+ 
+ 
+ excute: java classname 
+ 
+ 
+ 
+ 
+1.PLATFORM INDIPENDENT
+
+      pi WORA(WRITE ONCE RUN ANYWHERE)
+windows------------------------------->linux,WI,
+.class                                  .class
+
+
+
+MICROSFT
+
+.NET 
+
+
+              PD
+WINDOWS--------------------------->WINDOWS---------------------------
+.CLASS
+
+
+
+
+2.GARBAGE COLLECTION
+
+
+PROJECT--->1000 VRIBALE*4000BYTES
+
+
+1 VARIABLE---> 4BYTES
+
+UNWANTED MEMORY SPACE----> GARABAGE COLLECTOR()--->PERFORMANCE
+
+
+WE DONT NEED WRITE ANY CODE
+
+
+C++:EXPLICITLY WE NEED TO WRITE
+
+
+
+======================================Variables=======================================
+
+variable is a container or location where we are storing our values 
+
+
+syntax:
+--------
+                    datatype  variablename=value/data;
+					
+					int age=67;
+					String name="sathya";
+					float salary=5600.87f;
+					char c='s';
+
+
+int phon=77777;
+                 
+
+java is static typing
+
+javascript dynamic typing 
+
+
+ datatype:
+ ----------
+ 
+ the type of data which we are storing in variable name
+
+
+int phon=77777;
+
+
+2 types:
+
+1.primitive 
+2.non-primitive :string arrays objectsw wrapper enums
+
+
+1.primitive:
+------------
+
+byte
+short
+int
+long-------------used to store numbers
+float
+double-------> decimal values
+char ------------->to store charecter
+boolean ----------->logical values(true,false)
+
+
+
+byte;
+-----
+
+size: 1 byte =8bits
+
+range: -128 to 127
+
+
+byte b=128;//inv
+
+byte b=127;//valid
+
+byt b=560;//inva
+
+
+-2(n-1)   to 2(n-1)-1
+
+n=>no of bits
+
+-128  to 127
+
+
+short:
+-------
+
+size:  2 bytes 
+
+
+-24767 to 24766
+
+
+short s="sathya";//in
+
+short s=67;//vali
+
+short s=true;//in
+
+int:
+----->>
+
+size: 4 bytes 
+
+int age=67;
+
+int value="sathya";//invalid
+
+long:
+-----
+
+size: 8 bytes
+
+
+
+float:
+-----
+
+
+
+size: 4bytes
+
+
+range: -3.467e-10 to 3.467e-10
+
+5 to 6 decimalas after precision
+
+
+float salary=67000.78f;//
+
+double d=78.00;//v
+
+
+
+double:
+
+size : 8bytes
+
+
+15 to 16 decimals
+
+
+
+char:
+----
+size: 1 byte ascii(256)---> 1byte
+
+java can support 18 interanational-->65535---> 2bytes  UNICODE
+
+boolean:
+---------
+
+depends on the jvm 
+
+
+
+byte      1       0
+short    2       0
+int     4        0
+long     8      0
+float   4      0.0
+double   8     0.0
+char    2      space
+boolean  depnds jvm   false
+
+
+
+int age;  //declaration
+
+age=67; // assigning 
+
+int ag=67;//initilization 
+
+
+
+
+                datatype  variablename=value/data;
+				
+				2 types
+				
+				1.local varible:   with in the method
+				2.global variable: with in the classs out side the method
+				    1.instance variable
+					2.static variable
+				
+				
+				class Test{
+				   
+				   //gloabal variables
+				   
+				   float salary=3400.87f;//instance variable
+				   
+				  static  String schoolName="navodaya"; //static variable
+				   
+				   psvm(String args[])
+                    {
+
+                  int age=67;//local varibale
+
+                    }	
+					
+				}
+				
+4 difference properties(variable,methods):
+-----------------------------------
+1.sytntax:
+
+without static keyword we can say : instance variable eg: int age=78;
+
+with static kew we can say: static variable:  static double salary=78.00;
+
+2. memory allocation
+
+static properties will get memory space @tym of class loading into jvm 
+instance properties will get memory space @ tym of objec
+
+
+
+
+
+
+3. how to access/how to call/how to print 
+
+static properties will call by using classname
+
+instance properties will call by using object reference
+
+4. when to acces/when to go for
+
+whenever common properties: static 
+
+whenever unique prop: instance
+
+
+
+class Test{
+
+public static void main(String ...args){
+
+
+//syantx
+
+classname objectreference = new clasname();
+    
+	Test obj=new Test(); //object creation
+}
+
+}
+
+
+
+public static void main(String args[])
+
+{
+
+
+}
+  def:
+----
+
+method is the location where we are perform action or logic  
+
+syntx:
+------
+
+accessmODIFIER  RETURNTYPE METHODNAME(IF ANY PARAMTERS)
+{
+
+
+
+}
+
+
+
+
+
+public void display()   //instance method without return type without parameters
+{
+Syso("i am display method");
+
+}
+
+
+public void sum(int a, int b){ //instance method without returntype  with parametrs
+
+  Syso("sum of two numbers:"+(a+b));
+}
+
+
+public int subOfTwoNumbers(int a,int b)    //instance method with returntype with parmaeters
+{
+
+return a-b;
+}
+
+
+public static void divOfTwoNumbers(int a,int b) //
+{
+
+Syso(a/b);
+
+}
+
+
+public static void display1(){ //
+
+Syso("ia m display 1");
+
+}
+
+
+public static int mulofTwO()
+
+  return a*b;
+}
+
+
+
+=====================================Constructors==================================
+
+*constructor is same as like class name 
+*objective:
+   to write initilization logic inside the construtor
+  *constructor we can say its member method 
+
+
+2 types:
+=========
+
+
+1.default constuctor
+2.parameterized constructor 
+class Test{
+
+
+}
+
+
+
+
+object createion?
+
+Test sathya= new Test();   //object creation 
+
+
+
+syntax:
+---------
+
+
+
+
+
+accessMODIFIER   CLASSNAME()
+{
+
+
+
+
+}
+
+
+public Test()
+{
+
+
+
+}
+
+
+package com.demo.constructor;
+//without constructor
+public class Student {
+	
+	int stid; //123
+	String stname;//mahesh
+	
+	public void assign() {
+		stid=123;
+		stname="mahesh";		
+	}
+	
+	public void dispaly() {
+		System.out.println(stid+"  "+stname);
+	}
+
+	public static void main(String[] args) {
+			
+		Student st= new Student(); //object creation
+		
+		//st.assign();
+		st.dispaly(); //123 mahesh
+		
+	}
+}
+
+
+
+
+package com.demo.constructor;
+//without constructor
+public class Student {
+	
+	int stid; //100
+	String stname;//keerthi
+	
+	public Student() { //default cnstructor
+		
+		stid=100;
+		stname="keerthi";
+	}
+	public void dispaly() {
+		System.out.println(stid+"  "+stname);
+	}
+
+	public static void main(String[] args) {
+			
+		Student st= new Student(); //object creation	
+		st.dispaly(); 
+		
+	}
+}
+
+
+
+Student
+
+
+public Student(){
+
+
+
+}
+
+
+//parameterized constructor 
+
+
+public Student(int age)
+{
+
+
+}
+
+public Student(int age,String name)
+{
+
+
+}
+Note;
+----------
+in a single program only one default construtor we can write 
+
+we can write multiple param constructors
+
+
+
+identifiers:
+------------
+
+any name in java we can say its identifier (class name,methodname,variablename)
+
+
+
+
+class Test{ 1
+
+public static void main(String args[])  //3,4 5
+
+{
+
+int age=34;2
+}
+
+}
+
+how many identifiers we have in above program:5
+
+
+
+what are the allowed charecters in java:
+
+
+o-9
+a-z
+$
+_
+
+
+
+
+String java2earn="hell";
+
+
+
+java_java_ //valid
+hel@hel@h// invalid
+12java   // invalid
+java123  //  valid
+$_$_$_  //  valid
+
+
+
+int age123=67; //vlid
+
+int 12age=78; //invalid
+
+int $_$_$_ =56;
+
+
+class name: CLASS NAME SHOULD BE START WITH CAPITALCASE:  EG: Test    WelcomeToIndia
+
+variable and methods: camelcase:   welcomeToIndia
+
+interface : Test 
+
+package:  com.conceptname  (loecase)
+
+int int=45; //invalid
+
+
+class ConstructorExample{
+
+
+}
+
+
+=====================================flow controls or control flow statements================================
+
+to control flow of the program when you will execute at wahat line you are executing 
+how many number of lines are executing
+
+
+
+
+
+statement-1---->6tymes
+statement-2
+statement-3---7times
+statement-4
+statement-5--->15 times
+statement-6-->1000 times
+
+
+
+3 types:
+-----
+
+
+1.desicion making statements or conditional
+
+    if 
+	else
+	else if
+	switch 
+2.looping statements or iterative
+
+     for 
+	 while 
+	 do while
+     
+3.jumping statements or continue 
+
+   break 
+   continue
+
+
+
+if(arguments)  //boolean type
+{
+
+//logic
+}
+
+else{
+
+//logic
+}
+
+
+int x=56;
+int y=78;
+
+
+if(x<y)
+{
+ //logic 1
+}
+else{
+
+//logic 2
+}
+
+
+
+switch(argument){
+
+case expresiion:
+    
+	case expression:
+
+
+}
+
+
+int age=78;
+
+
+switch(age){
+
+
+ case 34;
+    syso();
+ case "sathya";
+    syso();
+}
+
+
+3=3
+int  3== int 3
+int 3===string "3"
+
+
+=   //
+
+==   //
+
+===   //
+
+
+===============================COMMANDLINE Arguments=============================
+
+
+
+
+class Test
+{
+
+
+
+
+
+
+}
+
+no: we cant excute wo main method 
+yes: we can compile wo main method 
+
+
+int x[]= new int[];
+
+int x=89;;
+
+
+
+
+public static  void sathya(String args[]){
+
+
+
+}
+
+aray
+
+class jvm{
+
+
+
+}
+
+
+public int sum(int a,int b){
+return a+b;// 7+4
+}
+
+
+90% strings method data oject
+
+
+
+the arguments which are passsing to the main method throgj the consol 
+
+
+
+ primitive types                   wrapper class 
+ 
+ byte   ----------------------->	Byte
+ short-------------------------------Short
+ int ----------------------------Integer
+ long --------------------------Long
+ float --------------------Float
+ double--------------Double
+ char--------------------Charecter
+ boolean -----------------Boolean
+ 
+ int i=90;
+ 
+ Integer i= new Inteegr(90);
+ 
+ int x=i;
+ 
+ class Sathya{
+ 
+ 
+ }
+ 
+ 
+ parseXXX--static methods -->call?
+ 
+ 
+ 
+ ====================================scanner class===================================
+ 
+ 
+ java.util package : read the input from the user 
+ 
+ 
+ instance methods: nextXXx
+ 
+ 
+ 
+ ========================================oops===================================
+ 
+ 
+ 
+ oops                                          oopl
+ 
+ featurs methodolgies 
+ 
+ 
+ 
+ 1.inheritance
+ 2.polymorphism-----performance
+ 3.Abstraction
+ 4.encapsulation-----security
+ 
+ 
+ class, object 
+ 
+ 
+ class:
+ -----
+ 
+ class is a logical entity or class is collection of variable methods constrcutro and objects 
+ 
+ or class is collection of properties
+ 
+ 
+ have you a a car? no --->type of cars logical 
+ 
+ have you a seen a tree?-->no 
+ 
+ 
+ object:real world entity
+ 
+ instcnae of a class(it is allocating sufficint memory space to th class properties)
+ 
+ state and behavior:
+ 
+ 
+ dog : color:brown
+        behavioe:wagging a tail
+		
+		>
+		dna---class---------------   objects
+		
+		
+		
+		
+inheritance:
+----------
+
+aquiring properties from parent to child 
+                          base class to derived class
+						  super to class to sub class  
+
+  ---->code reusebility
+  
+  ------------------------->exetnds,implements
+
+
+
+class OldProject{
+
+//1000methods
+
+//200 variables
+}
+
+
+class myproject extends OldProject{
+
+
+
+//10 methods+logically we have 1000 method200 variable
+
+}
+
+
+type of inheritnace
+:
+-------------------
+
+
+1.single level---->1p 1c
+2.multilevel----1gp 1p 1c
+3.multiple---------------------------------------------2p 1ch*****not possible in java 
+4.hirarchial---->1p 2chil
+5.hybrid--->combi any two inhertance
+
+
+
+================================abstraction===================================================
+
+hiding the data showing the functionality
+
+or
+
+hiding unessary data showing nessassry functionality 
+
+
+in two ways we can achive abstarction:
+
+
+
+1.By using abstract class : 0 to 100%
+
+2.by using Interface : 100%
+
+
+
+
+
+1.By using abstract class : 0 to 100%:
+---------------------------------------
+
+
+class: implemeted methods           eg: public void m1(){  //logic }
+
+
+abstarct class:  both methods:  implementd and unimplemented methods
+
+
+public void m1(){  //logic }
+public void m2();
+
+*your class shoud have atleast one abstarct method.
+      if you have atleast one absatrct metho your class should be make is as absatrct.
+	  
+
+
+class Test{
+
+ public void m1(){  //logic }
+
+}
+
+
+
+class Test{
+
+ public void m1(){  //logic }
+ 
+ public void m2();  //no implementation
+
+}
+
+
+
+class: all implementd methods 
+
+abstacrt class: both implementd and unimplted methods 
+
+interface: only unimplementd methods
+
+====================polymorphism=====================
+
+40+20= 60
+
+40+"sathya"= 40sathya
+
+operator overloading 
+
+performance
+
+  1. method overloading
+  2.method overridng
+
+method overloading:
+==================
+method name is smae but signature different  
+                        nof parameters are different 
+						order of parameters are different 
+						type of params are different 
+class Claculator{
+
+
+ public void addition(int a,int b,int c){
+       System.out.println("addition of three int values :"+(a+b+c));
+}
+
+
+ public void addition(int a,int b){
+       System.out.println("addition of two int values :"+(a+b));
+}
+
+public void addition(float a,float b){
+       System.out.println("addition of two float values :"+(a+b));
+}
+public void addition(float a,int b){
+       System.out.println("addition of  float,int values :"+(a+b));
+}
+public void addition(int a,float b){
+       System.out.println("addition of int float values :"+(a+b));
+}
+
+}
+
+method overriding:
+-----------------
+
+
+parent class{
+
+marrige()-->arrange mrrg
+property()--1000croes
+}
+
+child class{
+
+marrige()---->love mrrg
+1000 crore
+}
+
+
+method name is same but implementation is different 
+
+or
+
+as a child he is not satisfying parent implemention
+
+
+
+====================this,super,final====================
+
+
+this: this is a keyword its used to represent current class properties
+                    (variable,methods,objects,constructors)
+super: super is a keyword its used to represent parent class properties 
+                   (variables,methods,constructors)
+final: final is keyword, its used in three different places
+                varbles,methods,classes
+				
+				
+				
+				
+				
+class: methods: {}
+
+
+====================================================================================================
+
+
+
+
+
+
+========================packages============================
+
+its a collection of clasess,interface,subpackages
+
+java.lang.Object
+
+java-----main package
+
+lang----subpackage
+
+
+object----object
+
+
+1.predefined/syystem defined 
+
+
+   6000 predefined :
+   
+   java.lang,java.util,java.io,awt,
+2.user defined packages :
+
+com.hospatal.service: 
+
+compile:  javac -d . filename.java 
+
+execution: java packagename.classname
+
+
+pacakage com.demo.hello;---->class 
+
+
+easily maintain 
+avoiding naming collision
+
+
+====================================Access Modifiers====================
+
+access modifiers: public private protected default 
+
+non access modiefiers: static abstract transint volatile synchronized
+
+
+================================Encapsulation=========================
+
+
+binding teh datamamebers togesther as a single enetity
+
+
+employee
+{
+private
+  name. id, salary ,atm, addrs
+  
+  
+  public methods
+
+}
+
+
+class Employee{
+
+
+private int empid; // 2methods
+private String ename;
+private String eadd;
+private int esal;
+private int atmpin;
+
+//throgh the methods we can access
+
+1o ,ehod
+
+
+}
+
+
+=================================String,StringBuilder,StringBuffer======================
+
+
+
+
+String:------->class or datatype  , both  , class,  dt 
+
+String class as well as its a non primitive dt,
+
+java.lang.String 
+
+collection of charecters 
+
+*String is immutable(once we assign the value we cant change)
+
+2 ways we can create the object of a string 
+
+1.by littral way
+2.by using new keyword
+
+
+StringBuilder,StringBuffer :
+----------------------------
+
+String mutable->we can change the values 
+
+
+staringbuffer--synchronized -->one thread->less: thread safety 
+
+StringBuilder--->not synchronized -->performncae more: no thread safety
+
+
+
+
+1--3 floors --2yrea-->very straong  9.0rector
+
+
+100--3 floors -->1mnths--->very less 1.0
+
+======================Files i/o====================
+
+
+File f= new File("hello.txt");
+
+
+
+
+
+f.createNewFile()--->inst:predefinection exception 
+
+
+f.mkdir() //create a folder
+
+
+3 classes to write the information
+
+1.FileWriter
+2.BufferedWriter
+3.PrintWriter
+
+
+
+read the information frok file
+
+2 class
+
+FileReader
+BufferedReader
+
+
+===================================Exception Handling===========================
+
+
+
+ora123 
+
+Arthematic exception  :system defined error msg
+
+
+please enter valid maild id; user frindly msgs
+
+
+exception handling is a mechanism of converting system defined error msgs to 
+ user frindly messages
+
+
+without exception handling:
+1.abnormal termination
+2.system defined error mesages
+
+with exception handling:
+
+------
+
+1.normal termination 
+2.user frindly messages
+
+
+1
+2
+3--->error(what is the reason):
+
+100
+
+
+errors:
+--------
+
+1.compile time error:those errors which are occuring bcz of poor understanding lang
+
+2.Run time errors:(exception)those errors which are occuring bcz of user invalid input.
+
+exception hirarchi:
+=-----------------
+
+
+
+
+                                OBJECT
+								
+								
+								Throwable
+
+predeffined                                               user defined exceptions
+
+   Asynchronous excption             synchronous
+   java.lang.Error
+   Error                         checked             unchecked
+     harware issues              hard disc             java.lang.RunTimeException 
+	                                                         main memory
+
+boostrap method error         filenot              Arthematic 
+                                               StringIndexoutofBounf 
+virtual machine                             arrayIndex 
+access 
+illagal argument                          null  ,Numberformat
+
+
+
+try catch finally throw throws
+
+
+
+try 
+---
+it generated an exception
+
+
+try{
+
+//error code
+
+}
+
+catch(Exceptionclass refname){
+
+//userfirndly messages
+
+}
+
+datatype variablename[]=new datatype[size];
+
+int age[]=new int[13];
+
+age[0]=67;
+age[1]=45;
+age[2]=90;
+age[3]=13;
+
+Syso()
+
+---------------------------------------
+
+inhertitance:
+---------------------------extends inpmets
+
+*code reusebiltity
+
+class Samsung1{
+
+
+  public void version2(){
+      bloth
+	  network
+	  sim 1
+	  calling
+	 
+  }
+
+}
+
+class NewSamsung extends Samsung{
+
+	 new sim slots(
+vediocalling()
+
+
+100
+}
+
+class x extends A,B{ //multiple in
+
+//ambiguity issues
+
+}
+
+
+
+implemeted 
+
+
+unimplementd 
+
+
+abstarct method
+
+
+----------------------------------->
+------------------------------------>
+
+
+1.abstract class : 0 to 100%
+
+  : both implmeted,unimplemnted{}
+
+
+2.by using interface :100%
+
+
+
+
+
+interface Iphone34{ //100%
+
+public abstract void camera5();
+
+
+}
+
+
+
+class SathyaPhone implements Iphone34{
+
+public void camer34(){
+
+
+
+
+}
+}
+
+
+{
+
+
+}
+
+
+public void username(){
+
+try{
+  String name="sathya";
+  }
+  
+  catch(N kj){
+  Syso()
+  }
+
+}
+
+throw                                         throws 
+
+1.throw is a key word,                     1. we can throws multiple times
+
+we can throw an exception only one time   2. with the method signature
+
+2.within the method we can throw          3, alwyas with method signature
+
+3. alwyas with the new  instance            4. we can declare excpetion
+
+4.
+
+class child extends Parent{
+
+}
+
+===================user defined exceptions:
+-------------------------------------------------
+
+1.your class should be extends with predefined exception class (throwable,Exception)
+2.your class should have one param constructor
+
+
+
+=====================MultiThreading====================
+
+
+Multitasking?
+
+executing several task simulteniously we can call multitasking
+
+types of multitasking 
+
+
+1.thread based multitasking
+2.process based multitasking
+
+
+2.process based multitasking:
+---------------------
+executing several task simulteniously where each task seperate independt process
+
+
+e: os level 
+
+
+writeg code in notepad++ at the same time playing songs in vlc media player at the dame time 
+downloading file from the google 
+
+
+1.thread based multitasking:
+-------------------
+executing several task simulteniously where each task seperate 
+independt of same program
+
+eg:1000 lines  -->5hrs
+
+dev-->two threads   500 500
+
+eg: programmtic level 
+
+
+thread? thread one process, ih has leight weight
+
+
+thread?
+
+we can create thread in two ways 
+
+1.by exetnding Thread class 
+2.by implementing runnable interface
+
+objective: it will reduce response time and increase the performance 
+
+application:XC
+
+multimedia graphic
+vedigames
+servers 
+
+samanth--->sam--->single abstract method 
+
+thread scheduler-->it will decide thread is 
+
+class Thread{
+
+public void Start(){
+}
+}
+
+class Employee extends Thread {
+
+
+
+Employee emp= new Employee();
+emp.start();
+}
+
+=================================================
+
+class Employee implements Runnable
+{
+
+
+public void run(){
+
+
+}
+
+mainb {
+
+eMPLOYEE EMP= NEW eMPLOYEE();
+Thread t= new THREAD(EMP);
+T.START();
+
+}
+}
+
+
+
+BY DEFAULT EVERY THREAD HAS SOME NAME 
+
+               :  MAIN MAIN 
+			   
+			   
+			   
+			   :Thread scheduler
+
+
+
+==================synchronization==============
+
+modifier, methods and bloacks
+
+
+[welcome][to][india]
+
+
+Assignment
+
+account 10000
+
+
+withdrw
+deposite
+enquiry
+
+=====================reguler expression================================
+
+
+
+
+
+Pattern p= Pattern.compile("abababab");
+
+
+
+Matcher m=p.macther();
+
+
+[abc]===>a or b or c 
+[^abc]====>
+
+
+
+collections:--->collection project-->layedred architecture
+
+=================================ARRAYS======================================
+
+
+
+
+int age=78;  //valid
+
+int age=67,90;//invalid
+
+
+
+int marks=89,56,78;--->it not valid
+
+1.single dimension
+2.multi dimensions
+    two dimensional : equal rows and eqaul columsn
+	jagged array:  2 rows 3 colums  or 3 columns 2 roe=ws
+
+
+
+1,by litteral way 
+2.by using new keyword 
+
+
+datatype variblaname[]= new datatype[size];  // y using new keyword
+
+int marks[]=new int[6];
+
+marks[0]=78;
+marks[1]=58;
+marks[2]=79;
+marks[3]=89;
+
+Ssyo(marks[4]);
+
+
+array size is 6  array index size 5
+
+             9                     8
+			 
+			 287                  286
+			 
+			 n                     n-1
+
+
+
+
+array disadvantages:
+-------------------
+
+*it will allow only similar kind of data or homoginoius data 
+*the array size fixed 
+
+
+
+         int age=56;        int ages[]={67,56,89}
+varibales------------>arrays----------------------------->collection=====>auto growable
+
+*==========================collections==============
+
+we can store anykind of data 
+auto growable nature
+
+
+
+
+-->collection 
+
+dis:
+------
+we can store only objects ;
+
+
+
+
+
+collection is group of objects as a single entity.
+
+or 
+
+collection is group of homeg ,and hetero data 
+
+collection as single entity 
+
+
+
+collection is an interface  
+
+or
+
+collection is root interface collection interface 
+
+
+
+
+collection is interface or class?
+
+
+
+Collection -->interface --->we cant create the obj
+
+Collections------>class---->we can create a class
+
+all are predefined method--->
+                                    
+									collection(framework)-->predefined methods
+
+                                       
+									   List ---->i 
+									   arraylist
+									   linked list
+									   vector
+									   stack
+
+
+
+
+Vector: by default capacity is :10   whevenvr u insert 11th  capcity:20
+
+
+ArraylIST:by default capacity is : 0 INSERT 1ST RECORD: DEFALT CAPCITYI S:10 
+                                                           11th value capacity:16
+
+
+
+
+whenever our frequent operion is selecting or retrival operation: arraylist 
+                                         random accessmemory
+whever our frequent operation is inserting,deleting,updation:  linked list 
+                                   doubly linked list algorithm
+
+
+
+
+
+generics:
+----------
+
+   
+   he wants to allow only string values
+
+arraylist al= new ARRAYLIST();
+
+al.add("sathya");
+al.add("hello");
+al.add(67);
+al.add("joke");
+al.add(23);
+al.add("sleep");
+
+
+Generics:
+
+
+ArrayList<Type>  al= ArrayList<Type>();
+
+
+==========================set=========================
+
+
+  collection 
+  
+  
+  set 
+  
+  
+  hashset  linkedhasset  treeset
+
+
+
+
+Cursors:
+------------
+
+1.Enumeration: legacy classes or old classes
+2.Iterator: universal class or any class in the collection interface : only forwar dirction 
+3.ListIterator: bidectional: only list ralted classes
+
+
+
+
+
+
+collection  -->add,add,remove
+
+List 
+
+
+arraylist.
+
+
+
+
+
+
+
+
+interface List extends Collection{
+
+
+}
+
+
+class ArrayList implements List{
+
+
+
+}
+
+
+class ArrayList extends List,Collection{ //invlaid
+
+
+}
+
+
+
+
+
+
+
+
+
+
